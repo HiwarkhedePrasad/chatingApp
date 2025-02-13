@@ -143,6 +143,3 @@ Feel free to fork the repo and make changes! If you find any bugs or have sugges
 
 
 Enjoy coding! ✨
-```
-
-This README provides a structured overview of the repository, including setup instructions, how to run the project, and a basic breakdown of the folder structure. It should make it easy for someone to get up and running with your project quickly!
