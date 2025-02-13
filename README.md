@@ -116,7 +116,7 @@ pip install opencv-python mediapipe
 Run the script using:
 
 ```sh
-python script.py
+python model.py
 ```
 
 ### Controls
