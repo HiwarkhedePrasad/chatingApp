@@ -87,6 +87,56 @@ Contains all the Express server-side code and routes.
 - **Frontend**: React, JavaScript,VIte,socket.io-client
 - **Backend**: Express.js, Node.js,socket.io-client
 
+
+
+
+
+# Face, Number Plate & Gesture Detection
+
+This project utilizes OpenCV and MediaPipe to perform real-time detection of faces, number plates, and hand gestures from a webcam feed.
+
+## Prerequisites
+Ensure you have Python installed and install the required dependencies using:
+
+```sh
+pip install opencv-python mediapipe
+```
+
+## How It Works
+- **Face Detection**: Uses OpenCV's Haar cascade classifier to detect faces.
+- **Number Plate Detection**: Uses OpenCV's Haar cascade classifier to detect vehicle number plates.
+- **Hand Gesture Detection**: Uses MediaPipe's Hand solution to track hand landmarks and gestures.
+- Captures video from the webcam and processes each frame to detect these elements in real time.
+
+## Dependencies
+- OpenCV (`cv2`)
+- MediaPipe (`mp.solutions`)
+
+## Usage
+Run the script using:
+
+```sh
+python script.py
+```
+
+### Controls
+- Press `q` to exit the application.
+
+## Features
+- Real-time face detection
+- Real-time number plate detection
+- Real-time hand gesture tracking
+- Webcam-based video processing
+
+## Troubleshooting
+- Ensure your webcam is properly connected and accessible.
+- Haar cascade XML files for face and plate detection should exist in the correct path (`cv2.data.haarcascades`).
+
+## License
+This project is open-source and free to use under the MIT License.
+
+
+
 ## Contributing 🤝
 
 Feel free to fork the repo and make changes! If you find any bugs or have suggestions, please open an issue or submit a pull request.
