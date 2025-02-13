@@ -23,6 +23,7 @@ The project is divided into two main folders:
 1. Clone the repository to your local machine:
    ```bash
    git clone https://github.com/your-username/your-repository-name.git
+```
    ```
 
 2. Navigate to the **frontend** folder and install dependencies:
