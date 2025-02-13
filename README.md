@@ -33,7 +33,7 @@ The project is divided into two main folders:
 
 3. Navigate to the **backend** folder and install dependencies:
    ```bash
-   cd ../backend
+   cd backend
    npm install
    ```
 
@@ -68,13 +68,13 @@ Contains all the React code and assets.
 ### `backend/`
 Contains all the Express server-side code and routes.
 
-- `src/`: API routes, middleware, and backend logic.
+- `index.js`:It Contain all the logic for the video Transmission and Live Chatting
 - `package.json`: The npm configuration for backend dependencies and scripts.
 
 ## Scripts 📝
 
 - **frontend**:
-  - `npm start`: Starts the React development server.
+  - `npm run dev`: Starts the React development server.
   - `npm install`: Installs frontend dependencies.
 
 - **backend**:
@@ -83,18 +83,13 @@ Contains all the Express server-side code and routes.
 
 ## Technologies Used 💻
 
-- **Frontend**: React, JavaScript
-- **Backend**: Express.js, Node.js
+- **Frontend**: React, JavaScript,VIte,socket.io-client
+- **Backend**: Express.js, Node.js,socket.io-client
 
 ## Contributing 🤝
 
 Feel free to fork the repo and make changes! If you find any bugs or have suggestions, please open an issue or submit a pull request.
 
-## License 📄
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
 
 Enjoy coding! ✨
 ```
